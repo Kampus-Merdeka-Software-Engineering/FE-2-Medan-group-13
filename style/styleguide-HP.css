@@ -1,0 +1,11 @@
+:root {
+  --flowkitpurple: rgba(123, 97, 255, 1);
+  --flowkitcharcoal: rgba(34, 34, 34, 1);
+  --flowkitred: rgba(252, 85, 85, 1);
+  --flowkitgreen: rgba(41, 204, 106, 1);
+  --flowkitblue: rgba(0, 153, 255, 1);
+  --flowkitwhite: rgba(255, 255, 255, 1);
+  --biru-400: rgba(37, 40, 71, 1);
+  --biru-200: rgba(32, 131, 222, 1);
+  --hijau-100: rgba(43, 165, 190, 1);
+}

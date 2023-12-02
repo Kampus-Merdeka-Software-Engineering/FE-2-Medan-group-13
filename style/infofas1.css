@@ -1,0 +1,148 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background: #364f6b;
+    overflow: hidden;
+  }
+  
+  .logo {
+    float: left;
+    color:white;
+  }
+
+  
+  .logo a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-list {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .nav-list li {
+    float: left;
+    
+  }
+  
+  .nav-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 15px;
+    
+    
+  }
+  
+  .nav-list li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .profile{
+    font-size: 35px;
+  }
+  .img{
+    width:80px;
+    height:50px;
+  }
+  
+  /*Search CSS*/
+  .pict-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
+    justify-content:flex-start;
+    
+  }
+  .flex-item-left{
+    flex: 50%;
+  }
+  .flex-item-right{
+    flex: 50%;
+    flex-flow: row;
+  }
+  .flex-item-top{
+    flex: 50%;
+    flex-flow: column;
+  }
+  .flex-item-bottom{
+    flex: 50%;
+    flex-flow: column;
+  }
+
+  .img-hotel{
+    width: 625px;
+    height: 360px;
+    justify-content:center;
+    
+  }
+  .img-hotel2{
+    width: 300px;
+    height: 175px;
+    padding:2px;
+    justify-content: center;
+  }
+
+  /*Desc CSS*/
+  .desc-container{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 5px;
+  }
+  .tipe {
+    font-weight: bolder;
+  }
+
+  .desc{
+    flex-basis: 50%;
+    margin: 15px;
+    background-color: #ddd;
+    color: rgb(0, 0, 0); 
+    text-align: justify;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .img-product{
+    width: 300px;
+    height: 200px;
+  }
+
+  .button-edit {
+    color: #252847;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    justify-content: right;
+    background-color: #252847;
+    color: white;
+}
+
+.wrapper{
+  border-top-style:outset;
+  margin-top: 100px;
+  text-align: center;
+}

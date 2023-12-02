@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N O M A D</title>
+    <link rel="icon" href="./assets/title.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/infofas1.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo" style="display: flex;">
+          <a href="#"><img src="./gambar/logo.png" class="img" alt=""></a>
+        <div style="margin-top: 30px;">
+            NOMAD
+          </div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="home-profile.html">Home</a></li>
+          <li><a href="destinasi.html">Destination</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="profile" href="#"><ion-icon name="person-circle-outline"></ion-icon></a></li>
+        </ul>
+      </nav><br><br>
+      <h1 style="margin-left: 20px; font-weight: bold; font-size: 50px ;">Hotel Sarasvati Borobudur</h1>
+      <h5 style="margin-left: 25px; margin-top: -30px;">Jalan Balaputeradewa No. 10, Borobudur, Borobudur, Magelang, Jawa Tengah, Indonesia, 56553</h5>
+
+      <!-- pict -->
+      <div class="pict-container">
+        <div class="flex-item-left">
+          <img class="img-hotel" src="./gambar/g1.jpg" alt="">
+        </div>
+        <div class="flex-item-right">
+          <div class="flex-item-top">
+            <img class="img-hotel2" src="./gambar/g2.webp" alt="">
+            <img class="img-hotel2" src="./gambar/g3.webp" alt="">
+          </div>
+          <div class="flex-item-bottom">
+            <img class="img-hotel2" src="./gambar/g4.webp" alt="">
+            <img class="img-hotel2" src="./gambar/g5.webp" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Desc -->
+      <div class="desc-container">
+        <div class="desc">
+          <div>
+            <h2>Tentang Penginapan</h2>
+            <p>Menginap di Hotel Sarasvati Borobudur saat anda sedang berada di Borobudur adalah sebuah pilihan cerdas. Resepsionis siap 24 jam untuk melayani proses check-in, check-out dan kebutuhan Anda</p>
+          </div>
+        </div>
+        <div class="desc" >
+          <div>
+            <h2>Fasilitas Utama</h2>
+            <li> Restoran</li>
+            <li> Free Wifi</li>
+            <li> AC</li>
+            <li> Kolam Renang</li>
+            <li> Resepsionis 24 jam</li>
+            <li> Free Parkir</li>
+          </div>
+        </div>
+      </div>
+      <!-- Pesan Sekarang -->
+      <div>
+        <div style="padding: 20px; margin: 20px; background-color: rgb(230, 230, 230); border-radius: 5px;">
+          <div style="display: flex; justify-content: space-between; ">
+            <div>
+              <div class="tipe"> Tipe Kamar yang Tersedia</div>
+            </div>
+            <div class="dropdown-container">
+            Pilih Tanggal
+              <select id="day">
+                <option value="" disabled selected>Hari</option>
+                <!-- Menambahkan opsi untuk hari -->
+                <!-- Anda dapat menambahkan lebih banyak opsi jika perlu -->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <!-- ... -->
+                <option value="31">31</option>
+              </select>
+          
+              <select id="month">
+                <option value="" disabled selected>Bulan</option>
+                <!-- Menambahkan opsi untuk bulan -->
+                <!-- Anda dapat menambahkan lebih banyak opsi jika perlu -->
+                <option value="1">Januari</option>
+                <option value="2">Februari</option>
+                <!-- ... -->
+                <option value="12">Desember</option>
+              </select>
+          
+              <select id="year">
+                <option value="" disabled selected>Tahun</option>
+                <!-- Menambahkan opsi untuk tahun -->
+                <!-- Anda dapat menambahkan lebih banyak opsi jika perlu -->
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <!-- ... -->
+                <option value="2030">2030</option>
+              </select>
+            </div>
+          </div>
+          <!--List Room tersedia-->
+          <div style="margin-top: 20px;">
+            <div style="background-color: white; border-radius: 10px; height: 265px;">
+              <li style="padding-top: 20px; margin: 10px;">
+                  Standard Queen
+              </li>
+              <div style="display: flex;">
+                <div style="padding-left: 30px; flex: 40%; background-color: white;  height: 120px; width: 80px;">
+                  <img style="border-radius: 5px;" class="img-product" src="gambar/sq.webp" alt="">
+                </div>
+                <div style="background-color: white; height: 200; flex: 40%; padding-left: 20px;">
+                  <h4>Fasilitas Kamar</h4>
+                  <li>1 Double Bed</li>
+                  <li>Shower</li>
+                  <li>Kulkas</li>
+                  <li>Balkon</li>
+                  <li>Televisi</li>
+                </div>
+                <div style="background-color: white; flex: 20%; padding-right: 50px;">
+                  <h3>Harga</h3>
+                  <h3>IDR 888.250</h3>
+                  <button class="button-edit"><a href="pemesanan.html"> Pesan Sekarang</button></a>
+                </div>
+              </div>
+              
+            </div>            
+          </div>
+
+          <div style="margin-top: 20px;">
+            <div style="background-color: white; border-radius: 10px; height: 265px;">
+              <li style="padding-top: 20px; margin: 10px;">
+                  Junior Suite
+              </li>
+              <div style="display: flex;">
+                <div style="padding-left: 30px; flex: 40%; background-color: white;  height: 120px; width: 80px;">
+                  <img style="border-radius: 5px;" class="img-product" src="gambar/js.webp" alt="">
+                </div>
+                <div style="background-color: white; height: 200; flex: 40%; padding-left: 20px;">
+                  <h4>Fasilitas Kamar</h4>
+                  <li>1 Double bed</li>
+                  <li>Shower</li>
+                  <li>Televisi</li>
+                  <li>Balkon/teras</li>
+                  <li>Minibar</li>
+                </div>
+                <div style="background-color: white; flex: 20%; padding-right: 50px;">
+                  <h3>Harga</h3>
+                  <h3>IDR 1.413.125</h3>
+                  <button class="button-edit">Pesan Sekarang</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="copyright">
+        <div class="wrapper">
+          Copyright @ 2023 Grup13TeamG. All Right Reserved
+        </div>
+      </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
