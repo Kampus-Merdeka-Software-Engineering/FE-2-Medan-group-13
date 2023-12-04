@@ -11,22 +11,23 @@
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
-      <div class="logo" style="display: flex;">
-        <div>
-          <a href="#"><img src="./gambar/logo.png" class="img" alt=""></a>
-        </div>
-        <div style="margin-top: 30px;">
-          NOMAD
-        </div>
-      </div>
-        <ul class="nav-list">
-          <li><a href="home-profile.html">Home</a></li>
-          <li><a href="destinasi.html">Destination</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a class="profile" href="#"><ion-icon name="person-circle-outline"></ion-icon></a></li>
-        </ul>
-      </nav><br>
+    <div class="navbar">
+      <nav class="nav">
+          <div class="nav-logo">
+              <img class="picturel" src="./assets/logo.png">
+          </div>
+          <div class="nav-menu" id="navMenu">
+              <ul>
+                  <li><a href="index.html" class="link">Home</a></li>
+                  <li><a href="destinasi.html" class="link active">Destination</a></li>
+                  <li><a href="about.html" class="link">About</a></li>
+              </ul>
+          </div>
+           <div class="nav-button">
+              <a class="profile" href="#"><ion-icon name="person-circle-outline"></ion-icon></a>
+          </div>
+      </nav>
+  </div>    
       <!-- Pencarian -->
       <div class="search-container">
         <button type="button"><ion-icon name="search-outline"></ion-icon></button>

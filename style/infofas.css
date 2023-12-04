@@ -4,7 +4,7 @@
 }
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
   }
   
   .navbar {
@@ -129,7 +129,6 @@ body {
   }
 
   .button-edit {
-    background-color: rgb(223, 223, 223);
     color: #252847;
     padding: 10px 20px;
     text-align: center;
