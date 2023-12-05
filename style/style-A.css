@@ -385,12 +385,12 @@
 .profile{
   font-size: 35px;
   color: white;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   width: 100px; /* Sesuaikan dengan ukuran menu */
-  height: 100px; /* Sesuaikan dengan ukuran menu */
-  background-color: white; /* Warna latar belakang putih */
+  height: 100px; /* Sesuaikan dengan ukuran menu 
+  background-color: white; Warna latar belakang putih */
 }
 .nav-button .btn{
     width: 130px;
