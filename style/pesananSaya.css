@@ -1,0 +1,213 @@
+.pesanan-saya {
+  position: absolute;
+  top: 170px;
+  left: 46px;
+  font-size: 36px;
+  display: inline-block;
+  width: 310px;
+  height: 46px;
+}
+.the-amrta-hotel-11 {
+  position: relative;
+  width: 292px;
+  height: 201px;
+  object-fit: cover;
+}
+.div,
+.nama-hotel {
+  position: relative;
+}
+.div {
+  display: inline-block;
+  width: 10px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.frame-group,
+.nama-hotel-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nama-hotel-parent {
+  gap: 78px;
+}
+.frame-group {
+  gap: var(--gap-3xs);
+}
+.tipe-kamar {
+  position: relative;
+  display: inline-block;
+  width: 116px;
+  flex-shrink: 0;
+}
+.durasi-parent,
+.tipe-kamar-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tipe-kamar-parent {
+  gap: var(--gap-31xl);
+}
+.durasi-parent {
+  gap: 118px;
+}
+.payment-successful-wrapper {
+  border-radius: 8px;
+  background-color: #009650;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 13px;
+  color: var(--color-white);
+}
+.frame-parent,
+.frame-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.frame-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+.back-wrapper,
+.the-amrta-hotel-11-parent {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.the-amrta-hotel-11-parent {
+  top: 258px;
+  left: calc(50% - 392px);
+  border-radius: 15px;
+  border: 1px solid var(--color-black);
+  justify-content: flex-start;
+  padding: 30px;
+  gap: var(--gap-31xl);
+}
+.back-wrapper {
+  top: 578px;
+  left: calc(50% - 58px);
+  border-radius: 999px;
+  background-color: var(--color-gray);
+  height: 36px;
+  justify-content: center;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: #364f6b;
+    /* background: linear-gradient(rgba(39,39,39, 0.6), transparent); */
+    z-index: 100;
+    /*z-index: 1;*/
+    border: 1px solid white;
+}
+
+.nav-logo img{
+    max-height: 150px;
+    max-width: 400px;
+    margin-top: -25px;
+}
+
+.nav-logo p{
+    /* color: white; */
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-menu ul{
+    display: flex;
+    margin-top:auto;
+}
+.nav-menu ul li{
+    list-style-type: none;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
+.link:hover, .active{
+    border-bottom: 2px solid #fff;
+}
+.profile{
+    font-size: 35px;
+    color: #fff;
+}
+
+.footer-child {
+  position: relative;
+  border-top: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  /* text-align: center; */
+  width: 1000px;
+  height: 1px;
+}
+.copyright-2023 {
+    /* position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap; */
+  position: relative;
+  line-height: 27px;
+  font-weight: 500;
+}
+.footer {
+    /* position: absolute;
+    width: fit-content;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+    padding: 20px; */
+  position: absolute;
+  height: calc(100% - 1337px);
+  top: 1292px;
+  bottom: 45px;
+  left: 0;
+  width: 1700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 38px;
+  font-size: 16px;
+}
+.pesanan-saya-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1402px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
