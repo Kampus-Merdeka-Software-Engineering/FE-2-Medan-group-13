@@ -1,3 +1,8 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,700,400|Inter:500,700,400|PT+Serif:400");
+
 body {
   margin: 0;
   line-height: normal;
@@ -31,6 +36,7 @@ body {
   display: inline-block;
   width: 310px;
   height: 46px;
+  font-weight: bold;
 }
 .the-amrta-hotel-11 {
   position: relative;
