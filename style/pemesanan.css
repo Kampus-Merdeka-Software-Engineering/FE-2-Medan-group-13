@@ -1,8 +1,8 @@
 :root {
     /* fonts */
-    --font-poppins: 'Poppins';
+    --font-poppins: Poppins;
     --font-pt-serif: "PT Serif";
-
+  
     /* font sizes */
     --font-size-lg: 18px;
     --font-size-mini: 15px;
@@ -25,7 +25,6 @@
 
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
     display: inline;
 }
 
@@ -119,7 +118,7 @@ body {
 
 .hotel-name {
     font-size: 2rem;
-    margin: 0px;
+    margin-top: -15px;
     padding: 0px;
     border: 0px;
 }
