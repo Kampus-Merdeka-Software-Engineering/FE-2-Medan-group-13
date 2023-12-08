@@ -48,11 +48,14 @@ body {
   color: #fff;
   padding-bottom: 15px;
   margin: 0 25px;
-  border-bottom: 2px solid #fff;
 }
 .link:hover, .active{
   border-bottom: 2px solid #fff;
 }
+.nav-button{
+  height: 100%;
+  line-height: 110px;
+  }
 .profile{
   font-size: 35px;
   color: #fff;
