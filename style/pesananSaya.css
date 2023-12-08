@@ -180,6 +180,10 @@ body {
 .link:hover, .active{
     border-bottom: 2px solid #fff;
 }
+.nav-button {
+  height: 100%;
+  line-height: 110px;
+}
 .profile{
     font-size: 35px;
     color: #fff;

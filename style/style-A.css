@@ -414,6 +414,7 @@ a {
 }
 .nav-button{
   height: 100%;
+  line-height: 110px;
 }
 .profile{
   font-size: 35px;

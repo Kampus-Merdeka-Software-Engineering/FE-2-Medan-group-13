@@ -259,6 +259,10 @@ a {
     cursor: pointer;
     transition: .3s ease;
 }
+.nav-button {
+  height: 100%;
+  line-height: 110px;
+}
 .profile{
   font-size: 35px;
   color: white;
