@@ -636,15 +636,14 @@ a {
 }
 
 .home-profile .text-wrapper-17 {
-  position: relative;
-  width: fit-content;
+  position: absolute;
   font-family: "Poppins", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 16px;
-  letter-spacing: 0;
   line-height: 27px;
   white-space: nowrap;
+  top: 30px;
 }
 
 .home-profile .awal {

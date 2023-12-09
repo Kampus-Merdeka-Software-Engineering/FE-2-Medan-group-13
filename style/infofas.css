@@ -5,7 +5,6 @@
 
 body {
     margin: 0;
-    font-family: Poppins, sans-serif;
   }
   
 /*................. navbar start ...................*/
@@ -161,6 +160,7 @@ background-color: white; Warna latar belakang putih */
 
 .tipe {
   font-weight: bolder;
+  font-size: larger;
 }
 
 .desc {
@@ -192,7 +192,13 @@ background-color: white; Warna latar belakang putih */
 }
 
 .wrapper {
-  border-top-style: outset;
-  margin-top: 100px;
-  text-align: center;
+  display:inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 1800px;
+  left: 35px;
+  background-color: transparent;
+  font-family: 'poppins',sans-serif;
+  font-weight: 500;
 }

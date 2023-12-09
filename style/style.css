@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 link{
     display: none;
@@ -119,6 +118,7 @@ body{
     display: flex;
     flex-direction: column;
     transition: .5s ease-in-out;
+    font-family: 'Poppins', sans-serif;
 }
 .register-container{
     position: absolute;
@@ -127,6 +127,7 @@ body{
     display: flex;
     flex-direction: column;
     transition: .5s ease-in-out;
+    font-family: 'Poppins', sans-serif;
 }
 .top span{
     color: #252847;
