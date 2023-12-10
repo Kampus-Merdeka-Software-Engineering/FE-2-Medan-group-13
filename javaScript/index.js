@@ -1,42 +1,34 @@
-const API_BASE_URL = 'https://be-2-medan-13.up.railway.app';
+const destinasiListElement = document.getElementById("list");
 
-async function fetchhotels() {
-    const hotelList = document.getElementById('hotels-list');
-    try {
-        const response = await fetch(`${API_BASE_URL}/hotels`)
-        const hotels = await response.json();
-        const hotelListElement = hotels.map((hotel) => {
-            //   return `
-            //     <li>${hotel.title} by ${hotel.author}</li>
-            //   `;
-                return `
-                    <li>${hotel.title}</li>`;
-        });
+fetch("https://be-2-medan-13.up.railway.app/destinasi")
+  .then((response) => response.json())
+  .then((data) => {
+    data.forEach((destinasi) => {
+      const destinasiElement = document.createElement("div");
+      destinasiElement.innerHTML = `
+        <div class="card">
+          <a href="${getDestinasiInfoPage(destinasi.id)}"><img src="./assets${destinasi.image}" alt="${destinasi.name}"></a>
+          <div class="card-content">
+            <h3>${destinasi.name} ${destinasi.location}</h3>
+            <p>${destinasi.description}</p>
+          </div>
+        </div>
+      `;
+      destinasiListElement.appendChild(destinasiElement);
+    });
+  })
+  .catch((error) => {
+    console.error("Error fetching data:", error);
+  });
 
-        hotelList.innerHTML = hotelListElement
-    } catch (err) {
-        console.error(err);
-    }
-};
-
-fetchhotels();
-
-async function addhotel() {
-    const title = document.getElementById('hotel-title').value;
-    //   const author = document.getElementById('hotel-author').value;
-
-    try {
-        await fetch(`${API_BASE_URL}/hotels`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            //   body: JSON.stringify({ title, author })
-            body: JSON.stringify({ title })
-        });
-    } catch (err) {
-        console.error(err);
-    } finally {
-        fetchhotels();
-    }
+function getDestinasiInfoPage(destinasiId) {
+  if (destinasiId === 1) {
+    return "bst1.html";
+  } else if (destinasiId === 2) {
+    return "bst2.html";
+  } else if (destinasiId === 3) {
+    return "bst3.html";
+  } else {
+    return "#";
+  }
 }

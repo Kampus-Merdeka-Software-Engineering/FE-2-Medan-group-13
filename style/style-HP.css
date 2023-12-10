@@ -588,7 +588,7 @@ a {
 .home-profile .btn-dest {
   gap: 10px;
   padding: 14px 52px;
-  background-color: #2ba5be;
+  background-color: #364f6b;
   border-radius: 8px;
   display: inline-flex;
   align-items: center;
@@ -690,9 +690,9 @@ a {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 10px;
+  padding: 14px;
   flex: 0 0 auto;
-  background-color: var(--hijau-100);
+  background-color: #364f6b;
   border-radius: 8px;
   display: flex;
   position: relative;
