@@ -9,7 +9,7 @@ fetch("https://be-2-medan-13.up.railway.app/destinasi")
         <div class="card">
           <a href="${getDestinasiInfoPage(destinasi.id)}"><img src="./assets${destinasi.image}" alt="${destinasi.name}"></a>
           <div class="card-content">
-            <h3>${destinasi.name} ${destinasi.location}</h3>
+            <h3>${destinasi.name}, ${destinasi.location}</h3>
             <p>${destinasi.description}</p>
           </div>
         </div>

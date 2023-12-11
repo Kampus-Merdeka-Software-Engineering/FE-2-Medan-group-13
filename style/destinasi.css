@@ -144,13 +144,13 @@ body {
     border-radius: 5px;
   }
 
-  .footer {
+ .footer {
     display:inline-flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
     top: 1700px;
-    left: 35px;
+    left: 7%;
     background-color: transparent;
     font-family: 'poppins', sans-serif;
     font-weight:500;

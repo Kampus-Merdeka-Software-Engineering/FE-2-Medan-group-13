@@ -205,7 +205,7 @@ body {
 .footer {
   position: absolute;
   top: 1292px;
-  left: 35px;
+  left: 7%;
   bottom: 0;
   display: inline-flex;
   flex-direction: column;
